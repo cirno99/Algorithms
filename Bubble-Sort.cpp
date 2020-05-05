@@ -3,7 +3,11 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 int data[50000];
+=======
+int data[1000];
+>>>>>>> c10d4c212fa1fbf8b9fb3c781d61f41e75e96aaa
 
 void bubble_sort(int *d, int n)
 {
@@ -20,6 +24,7 @@ void bubble_sort(int *d, int n)
 		}
 	}
 }
+<<<<<<< HEAD
 //冒泡排序
 void BubbleSort1(int *arr, size_t size)
 {
@@ -134,5 +139,22 @@ int main()
 		printf("%d\n", data[i]);
 	}
 
+=======
+
+int main()
+{
+	for (int i = 0; i < 1000; i++)
+	{
+		data[i] = rand();
+	}
+	
+	bubble_sort(data, 1000);
+	
+	for (int i = 0; i < 1000; i++)
+	{
+		printf("%d\n", data[i]);
+	}
+	
+>>>>>>> c10d4c212fa1fbf8b9fb3c781d61f41e75e96aaa
 	return 0;
 }

@@ -17,6 +17,7 @@ void selection_sort() {
 		d[i] = minv;
 		d[minp] = t;
 		// 外层循环进行交换
+
 	}
 }
 
